@@ -1,6 +1,8 @@
 import { useMovies } from '../hooks/useMovies';
 import { MovieCard } from './MovieCard';
 
+import '../styles/content.scss';
+
 export function Content() {
   const { movies, selectedGenre } = useMovies();
 
