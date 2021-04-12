@@ -1,7 +1,8 @@
 import '../styles/wrapper.scss';
+import { ReactNode } from 'react';
 
 interface WrapperProps {
-  children: React.ReactNode;
+  children: ReactNode;
 }
 
 export function Wrapper({ children }: WrapperProps) {
